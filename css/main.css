@@ -247,12 +247,10 @@ h1 {
 }
 .icons:hover {
   background-color: #ad343e;
-
 }
 .icons img {
   width: 50px;
 }
-
 
 .text-area {
   display: flex;
@@ -281,4 +279,8 @@ h1 {
   line-height: 24px;
   letter-spacing: 0px;
   color: #ad343e;
+  transition: 1s ease 0.01s;
+}
+.product-div h5 a:hover {
+  color: aqua;
 }
