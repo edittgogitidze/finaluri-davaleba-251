@@ -284,3 +284,36 @@ h1 {
 .product-div h5 a:hover {
   color: aqua;
 }
+
+/*მესამე სექცია*/
+
+.purpose-class {
+  max-width: 1296px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 90px;
+  
+}
+.wrap-class {
+  width: 100%;
+  display: block;
+}
+.contact-img {
+  position: relative;
+ 
+}
+.again-contact {
+  position: absolute;
+  top:160px;
+  left: 135px;
+  width: 250px;
+  height: 180px;
+  background-color: #474747;
+  color: #ffffff;
+}
+.again-contact a{
+  color: #fff;
+}
