@@ -1,0 +1,33 @@
+.header-class {
+  max-width: 1293px;
+  width: 100%;
+  margin: 0 auto;
+}
+.contact-bar {
+  background-color: #474747;
+  color: #f9f9f7;
+  padding: 11px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-bar a {
+  color: #f9f9f7;
+}
+.for-contacts {
+  display: flex;
+  column-gap: 25px;
+}
+.social-icons {
+  display: flex;
+  column-gap: 4px;
+}
+.social-icons a {
+  width: 27.17px;
+  height: 27.17px;
+  border-radius: 100px;
+  background-color: #f9f9f71f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
