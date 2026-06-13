@@ -22,6 +22,15 @@
     .email{
         display: none;
     }
+    .burger-bar{
+        font-size: 25px;
+    }
+    .logo{
+        width: 200px;
+    }
+    .menu-container{
+        padding: 5px 20px;
+    }
 }
 
 @media(max-width:400px){
@@ -34,5 +43,6 @@
    .social-icons{
     column-gap: 4px;
    }
+   
 }
 
