@@ -1,13 +1,12 @@
-
 /*ჰედერის ნაწილი*/
-body{
-    height: 2000px;
+body {
+  height: 2000px;
 }
-header{
-    position: sticky;
-    top:0;
-    left: 0;
-    z-index: 1;
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .top-bar {
   background-color: #474747;
@@ -62,8 +61,8 @@ header{
   justify-content: space-between;
   align-items: center;
 }
-.menu-container img{
-    width: 100%;
+.menu-container img {
+  width: 100%;
 }
 
 .ul-list {
@@ -84,7 +83,7 @@ header{
   transition: 1s ease-in 0.2s;
 }
 .ul-list a:hover {
-  background-color: chocolate;
+  background-color: #ad343e;
   color: #f2f5ec;
 }
 .menu-container button {
@@ -98,16 +97,103 @@ header{
   line-height: 24px;
   letter-spacing: 0px;
   color: #182226;
-  transition:all 1s ease-in 0.2s;
+  transition: all 1s ease-in 0.2s;
 }
-.menu-container button:hover{
-    background-color: chocolate;
-    
+.menu-container button:hover {
+  background-color: #ad343e;
 }
-.menu-container button a:hover{
-    color: #f2f5ec;
+.menu-container button a:hover {
+  color: #f2f5ec;
 }
 .burger-bar {
   display: none;
   font-size: 35px;
+}
+
+/*პირველი სექცია*/
+
+.bg-photo {
+  background-image: url(../images/bgphoto.jpg);
+  height: 802px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-text {
+  width: 667px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+h1 {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 100px;
+  font-family: "Playfair Display";
+  line-height: 96px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.text-side {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+.text-side h4 {
+  font-family: "DM Sans 18pt";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding: 0px 65px;
+}
+.buttons-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 16px;
+}
+.buttons-side button {
+  display: flex;
+  width: 164px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-family: "DM Sans 18pt";
+  color:#182226 ;
+  border-radius: 118px;
+  border: 1.5px solid #2C2F24;
+}
+.different {
+    background-color: #AD343E;
+    transition: 1s ease-in 0.01s;
+}
+.different a{
+    color: #fff;
+}
+.different:hover{
+    background-color: #d8d0d0;
+}
+.second-button{
+     transition: all 1s ease 0.01s
+}
+.second-button:hover{
+    background-color: #AD343E;
+}
+.second-button a:hover{
+    color: #f2f5ec;
+}
+.different a:hover{
+    color: #2C2F24;
 }

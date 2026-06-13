@@ -13,6 +13,13 @@
     .button-class{
         order: 3;
     }
+/*პირველი სექცია*/
+/* .bg-photo{
+    height: auto;
+} */
+.main-text{
+    width: 100%;
+}
 
 }
 @media(max-width:580px){
