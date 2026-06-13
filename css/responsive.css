@@ -31,5 +31,8 @@
    .logo{
     width: 150px;
    }
+   .social-icons{
+    column-gap: 4px;
+   }
 }
 
