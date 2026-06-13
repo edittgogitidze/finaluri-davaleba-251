@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../fonts/DMSans18pt-Medium.eot');
+    src: url('../fomts/DMSans18pt-Medium.eot?#iefix') format('../fonts/embedded-opentype'),
+        url('../fonts/DMSans18pt-Medium.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-Medium.woff') format('woff'),
+        url('..fonts/DMSans18pt-Medium.ttf') format('truetype'),
+        url('../fonts/DMSans18pt-Medium.svg#DMSans18pt-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

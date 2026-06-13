@@ -1,12 +1,20 @@
-.header-class {
+/*ჰედერის ნაწილი*/
+.top-bar {
+  background-color: #474747;
+  width: 100%;
+}
+.bottom-bar {
+  background-color: #f2f5ec;
+  width: 100%;
+}
+.contacts-class {
   max-width: 1293px;
   width: 100%;
   margin: 0 auto;
 }
 .contact-bar {
-  background-color: #474747;
   color: #f9f9f7;
-  padding: 11px;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
 }
@@ -17,9 +25,12 @@
   display: flex;
   column-gap: 25px;
 }
+.for-contacts i {
+  margin-right: 8px;
+}
 .social-icons {
   display: flex;
-  column-gap: 4px;
+  column-gap: 10px;
 }
 .social-icons a {
   width: 27.17px;
@@ -30,4 +41,58 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+.menu-container {
+  max-width: 1293px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul-list {
+  display: flex;
+  column-gap: 8px;
+}
+.ul-list a {
+  color: #2c2f24;
+  padding: 4px 16px;
+  border-radius: 34px;
+
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-family: "DM Sans 18pt";
+  transition: 1s ease-in 0.2s;
+}
+.ul-list a:hover {
+  background-color: chocolate;
+  color: #f2f5ec;
+}
+.menu-container button {
+  border: 1.5px solid #2c2f24;
+  border-radius: 118px;
+  padding: 12px 24px;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "DM Sans 18pt";
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #182226;
+  transition:all 1s ease-in 0.2s;
+}
+.menu-container button:hover{
+    background-color: chocolate;
+    
+}
+.menu-container button a:hover{
+    color: #f2f5ec;
+}
+.burger-bar {
+  display: none;
 }
