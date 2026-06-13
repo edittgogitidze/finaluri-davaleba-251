@@ -1,4 +1,14 @@
+
 /*ჰედერის ნაწილი*/
+body{
+    height: 2000px;
+}
+header{
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
 .top-bar {
   background-color: #474747;
   width: 100%;
@@ -51,6 +61,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.menu-container img{
+    width: 100%;
+}
 
 .ul-list {
   display: flex;
@@ -95,4 +108,5 @@
 }
 .burger-bar {
   display: none;
+  font-size: 35px;
 }

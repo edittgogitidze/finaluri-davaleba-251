@@ -1,0 +1,35 @@
+@media(max-width:1024px)
+{
+    .navigation{
+        display: none;
+    }
+    .burger-bar{
+        display: block;
+        order: 1;
+    }
+    .logo{
+        order: 2;
+    }
+    .button-class{
+        order: 3;
+    }
+
+}
+@media(max-width:580px){
+    .button-class{
+        display: none;
+    }
+    .email{
+        display: none;
+    }
+}
+
+@media(max-width:400px){
+    .burger-bar{
+        font-size: 20px;
+    }
+   .logo{
+    width: 150px;
+   }
+}
+
