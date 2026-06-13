@@ -77,7 +77,7 @@ header {
   line-height: 24px;
   letter-spacing: 0px;
   font-family: "DM Sans 18pt";
-  transition: 1s ease-in 0.2s;
+  transition: 1s ease 0.2s;
 }
 .ul-list a:hover {
   background-color: #ad343e;
@@ -94,7 +94,7 @@ header {
   line-height: 24px;
   letter-spacing: 0px;
   color: #182226;
-  transition: all 1s ease-in 0.2s;
+  transition: all 1s ease 0.2s;
 }
 .menu-container button:hover {
   background-color: #ad343e;
@@ -174,7 +174,7 @@ h1 {
 }
 .different {
   background-color: #ad343e;
-  transition: 1s ease-in 0.01s;
+  transition: 1s ease 0.01s;
 }
 .different a {
   color: #fff;
@@ -243,10 +243,16 @@ h1 {
   align-items: center;
   justify-content: center;
   border-radius: 100px;
+  transition: 1s ease 0.01s;
+}
+.icons:hover {
+  background-color: #ad343e;
+
 }
 .icons img {
   width: 50px;
 }
+
 
 .text-area {
   display: flex;
@@ -259,20 +265,20 @@ h1 {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: -3%;
-  color: #2C2F24;
+  color: #2c2f24;
 }
-.text-area h6{
-font-family: "DM Sans 18pt";
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0px;
+.text-area h6 {
+  font-family: "DM Sans 18pt";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
 }
-.product-div h5 a{
- font-family: "DM Sans 18pt";
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0px;
-color: #AD343E;
+.product-div h5 a {
+  font-family: "DM Sans 18pt";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #ad343e;
 }
