@@ -1,7 +1,4 @@
 /*ჰედერის ნაწილი*/
-body {
-  height: 2000px;
-}
 header {
   position: sticky;
   top: 0;

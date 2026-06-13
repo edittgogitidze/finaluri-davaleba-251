@@ -1,55 +1,118 @@
-@media(max-width:1024px)
-{
-    .navigation{
-        display: none;
-    }
-    .burger-bar{
-        display: block;
-        order: 1;
-    }
-    .logo{
-        order: 2;
-    }
-    .button-class{
-        order: 3;
-    }
-/*პირველი სექცია*/
-/* .bg-photo{
-    height: auto;
-} */
-.main-text{
+@media (max-width: 1024px) {
+  .navigation {
+    display: none;
+  }
+  .burger-bar {
+    display: block;
+    order: 1;
+  }
+  .logo {
+    order: 2;
+  }
+  .button-class {
+    order: 3;
+  }
+  /*პირველი სექცია*/
+  .bg-photo {
+    background-position: left;
+  }
+  .main-text {
+    width: 500px;
+    row-gap: 20px;
+  }
+  .text-side {
+    row-gap: 10px;
+  }
+  h1 {
+    font-size: 55px;
+    color: rgb(13, 155, 108);
+    line-height: 70px;
+  }
+  .text-side h4 {
+    font-size: 16px;
+  }
+  .buttons-side {
+    column-gap: 8px;
+  }
+}
+
+@media (max-width: 580px) {
+  .bg-photo {
+    background-position: left bottom;
+  }
+  .button-class {
+    display: none;
+  }
+  .email {
+    display: none;
+  }
+  .burger-bar {
+    font-size: 25px;
+  }
+  .logo {
+    width: 200px;
+  }
+  .menu-container {
+    padding: 5px 20px;
+  }
+  .main-text {
     width: 100%;
-}
-
-}
-@media(max-width:580px){
-    .button-class{
-        display: none;
-    }
-    .email{
-        display: none;
-    }
-    .burger-bar{
-        font-size: 25px;
-    }
-    .logo{
-        width: 200px;
-    }
-    .menu-container{
-        padding: 5px 20px;
-    }
-}
-
-@media(max-width:400px){
-    .burger-bar{
-        font-size: 20px;
-    }
-   .logo{
+  }
+  .buttons-side button {
     width: 150px;
-   }
-   .social-icons{
-    column-gap: 4px;
-   }
-   
+    height: 40px;
+    font-size: 14px;
+    border: none;
+  }
+  .text-side {
+    row-gap: 8px;
+  }
+  h1 {
+    font-size: 40px;
+    color: rgb(8, 39, 29);
+  }
+  .text-side h4 {
+    font-size: 10px;
+  }
+  .buttons-side {
+    column-gap: 8px;
+  }
+  .different {
+    background-color: darkorange;
+  }
+  .second-button {
+    background-color: green;
+  }
 }
 
+@media (max-width: 400px) {
+  .burger-bar {
+    font-size: 20px;
+  }
+  .logo {
+    width: 150px;
+  }
+  .social-icons {
+    column-gap: 4px;
+  }
+  .buttons-side {
+    flex-direction: column;
+    font-size: 16px;
+    row-gap: 8px;
+    width: 100%;
+  }
+  .buttons-side button {
+    border: none;
+    column-gap: 6px;
+     width: 200px;
+    height: 35px;
+    font-size: 14px;
+  }
+  h1{
+    font-size: 25px;
+    color: darkorange;
+  }
+  .text-side h4 {
+    font-size: 8px;
+  }
+}
