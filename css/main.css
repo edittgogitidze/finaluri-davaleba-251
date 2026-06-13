@@ -15,7 +15,7 @@ header {
 }
 .contacts-class {
   max-width: 1293px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 .contact-bar {
@@ -168,36 +168,36 @@ h1 {
   line-height: 24px;
   letter-spacing: 0px;
   font-family: "DM Sans 18pt";
-  color:#182226 ;
+  color: #182226;
   border-radius: 118px;
-  border: 1.5px solid #2C2F24;
+  border: 1.5px solid #2c2f24;
 }
 .different {
-    background-color: #AD343E;
-    transition: 1s ease-in 0.01s;
+  background-color: #ad343e;
+  transition: 1s ease-in 0.01s;
 }
-.different a{
-    color: #fff;
+.different a {
+  color: #fff;
 }
-.different:hover{
-    background-color: #d8d0d0;
+.different:hover {
+  background-color: #d8d0d0;
 }
-.second-button{
-     transition: all 1s ease 0.01s
+.second-button {
+  transition: all 1s ease 0.01s;
 }
-.second-button:hover{
-    background-color: #AD343E;
+.second-button:hover {
+  background-color: #ad343e;
 }
-.second-button a:hover{
-    color: #f2f5ec;
+.second-button a:hover {
+  color: #f2f5ec;
 }
-.different a:hover{
-    color: #2C2F24;
+.different a:hover {
+  color: #2c2f24;
 }
 
 /*მეორე სექცია*/
 
-.about-menu{
+.about-menu {
   max-width: 1296px;
   width: 100%;
   margin: 0 auto;
@@ -205,24 +205,25 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 92px 152px 120px;
   row-gap: 64px;
 }
-.about-menu h2{
-font-weight: 500;
-font-size: 55px;
-line-height: 60.5px;
-letter-spacing: 0px;
-text-align: center;
-font-family: "Playfair Display";
-color: #2C2F24;
+.about-menu h2 {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 60.5px;
+  letter-spacing: 0px;
+  text-align: center;
+  font-family: "Playfair Display";
+  color: #2c2f24;
 }
-.box-class{
+.box-class {
   display: flex;
   column-gap: 24px;
   text-align: center;
+  max-width: 1296px;
+  width: 100%;
 }
-.product-div{
+.product-div {
   border: 1.5px solid#DBDFD0;
   border-radius: 12px;
   padding: 40px 34px 32px;
@@ -231,8 +232,9 @@ color: #2C2F24;
   align-items: center;
   justify-content: center;
   row-gap: 30px;
+  width: 306px;
 }
-.icons{
+.icons {
   width: 60px;
   height: 60px;
   background-color: #a59696;
@@ -240,9 +242,28 @@ color: #2C2F24;
   align-items: center;
   justify-content: center;
   border-radius: 100px;
-
-
 }
-.icons img{
+.icons img {
   width: 30px;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.text-area h4 {
+  font-family: "DM Sans 18pt";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -3%;
+  color: #2C2F24;
+}
+.text-area h6{
+font-family: "DM Sans 18pt";
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
 }

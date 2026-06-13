@@ -34,6 +34,9 @@
   .buttons-side {
     column-gap: 8px;
   }
+
+  /*მეორე სექცია*/
+
 }
 
 @media (max-width: 580px) {
