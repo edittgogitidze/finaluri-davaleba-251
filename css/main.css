@@ -194,3 +194,55 @@ h1 {
 .different a:hover{
     color: #2C2F24;
 }
+
+/*მეორე სექცია*/
+
+.about-menu{
+  max-width: 1296px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 92px 152px 120px;
+  row-gap: 64px;
+}
+.about-menu h2{
+font-weight: 500;
+font-size: 55px;
+line-height: 60.5px;
+letter-spacing: 0px;
+text-align: center;
+font-family: "Playfair Display";
+color: #2C2F24;
+}
+.box-class{
+  display: flex;
+  column-gap: 24px;
+  text-align: center;
+}
+.product-div{
+  border: 1.5px solid#DBDFD0;
+  border-radius: 12px;
+  padding: 40px 34px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+}
+.icons{
+  width: 60px;
+  height: 60px;
+  background-color: #a59696;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+
+
+}
+.icons img{
+  width: 30px;
+}
