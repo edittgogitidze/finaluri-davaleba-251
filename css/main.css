@@ -25,6 +25,13 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.for-contacts a {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "DM Sans 18pt";
+  line-height: 24px;
+  letter-spacing: 0px;
+}
 .contact-bar a {
   color: #f9f9f7;
 }
@@ -37,7 +44,7 @@ header {
 }
 .social-icons {
   display: flex;
-  column-gap: 10px;
+  column-gap: 15px;
 }
 .social-icons a {
   width: 27.17px;
@@ -48,6 +55,10 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
+  transition: 0.5s ease 0.2s;
+}
+.social-icons a:hover {
+  transform: translateY(-4px);
 }
 .menu-container {
   max-width: 1293px;
@@ -72,10 +83,10 @@ header {
 .ul-list li:hover {
   transform: translateY(-3px);
 }
-.logo{
+.logo {
   transition: 0.5s ease 0.2s;
 }
-.logo:hover{
+.logo:hover {
   transform: translateY(-3px);
 }
 .ul-list a {
