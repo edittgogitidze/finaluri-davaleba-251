@@ -47,7 +47,7 @@
     padding: 60px 0px 50px 0px;
   }
   .about-menu h2 {
-    font-size: 40px;
+    font-size: 50px;
   }
   .product-div {
     padding: 40px 24px 32px;
@@ -70,16 +70,33 @@
     font-size: 14px;
   }
 
-  /*mesame seqcia*/
-  .healthy-food{
+  /*მესამე სექცია*/
+  .healthy-food {
     width: 100%;
   }
-  /* .wrap-class{
-    width: 100%;
-  } */
-   .again-contact{
+
+  .again-contact {
     display: none;
-   }
+  }
+  .purpose-class {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .contact-img {
+    width: 95%;
+  }
+  .healthy-food {
+    width: 95%;
+  }
+  .healthy-food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .for-family h3 {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 830px) {
@@ -96,7 +113,7 @@
     padding: 90px 0px 40px 0px;
   }
   .about-menu h2 {
-    font-size: 55px;
+    font-size: 40px;
   }
   .product-div {
     padding: 40px 50px 40px;
@@ -125,6 +142,16 @@
     row-gap: 15px;
   }
   .text-side h4 {
+    font-size: 14px;
+  }
+
+  .for-family h3 {
+    font-size: 30px;
+  }
+  .dark {
+    font-size: 16px;
+  }
+  .light {
     font-size: 14px;
   }
 }
@@ -175,6 +202,14 @@
   }
   .second-button {
     background-color: green;
+  }
+
+  .for-family h3 {
+    font-size: 35px;
+    color: black;
+  }
+  .dark, .light{
+    display: none;
   }
 }
 
@@ -239,5 +274,11 @@
   }
   .phone-number {
     font-size: 12px;
+  }
+  .for-family h3 {
+    font-size: 25px;
+  }
+  .dark, .light{
+    display: none;
   }
 }
