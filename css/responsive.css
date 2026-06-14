@@ -69,6 +69,17 @@
   .product-div h5 a {
     font-size: 14px;
   }
+
+  /*mesame seqcia*/
+  .healthy-food{
+    width: 100%;
+  }
+  /* .wrap-class{
+    width: 100%;
+  } */
+   .again-contact{
+    display: none;
+   }
 }
 
 @media (max-width: 830px) {
