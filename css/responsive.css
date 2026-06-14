@@ -130,6 +130,12 @@
     width: 100%;
     text-align: center;
   }
+  .about-delivery h3 {
+    font-size: 40px;
+  }
+  .about-delivery h6 {
+    display: none;
+  }
   .delivery-block {
     display: flex;
     flex-direction: column;
@@ -208,10 +214,12 @@
   .for-info p {
     font-size: 12px;
   }
-.about-delivery h3{
-  font-size: 40px;
-}
-
+  .about-delivery h3 {
+    font-size: 40px;
+  }
+  .for-flex p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 580px) {
@@ -288,6 +296,9 @@
   .block-class {
     row-gap: 30px;
   }
+.food-pic{
+  display: none;
+}
 }
 
 @media (max-width: 400px) {
