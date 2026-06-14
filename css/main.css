@@ -579,6 +579,13 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s ease 0.01s;
+}
+.details-box i:hover{
+  background-color: #182226;
+  transform: translateY(-4px);
+  width: 40px;
+  height: 40px;
 }
 .for-flex {
   display: flex;
