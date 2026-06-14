@@ -149,10 +149,10 @@
     font-size: 30px;
   }
   .dark {
-    font-size: 16px;
+    font-size: 14px;
   }
   .light {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -208,8 +208,12 @@
     font-size: 35px;
     color: black;
   }
-  .dark, .light{
+  .dark,
+  .light {
     display: none;
+  }
+  .healthy-food button{
+    width: 100%;
   }
 }
 
@@ -278,7 +282,8 @@
   .for-family h3 {
     font-size: 25px;
   }
-  .dark, .light{
+  .dark,
+  .light {
     display: none;
   }
 }
