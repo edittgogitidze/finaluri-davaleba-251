@@ -66,18 +66,29 @@ header {
   display: flex;
   column-gap: 8px;
 }
+.ul-list li {
+  transition: 0.5s ease 0.2s;
+}
+.ul-list li:hover {
+  transform: translateY(-3px);
+}
+.logo{
+  transition: 0.5s ease 0.2s;
+}
+.logo:hover{
+  transform: translateY(-3px);
+}
 .ul-list a {
   color: #2c2f24;
-  padding: 4px 16px;
+  padding: 6px 16px;
   border-radius: 34px;
-
   font-family: DM Sans;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0px;
   font-family: "DM Sans 18pt";
-  transition: 1s ease 0.2s;
+  transition: all 0.5s ease 0.2s;
 }
 .ul-list a:hover {
   background-color: #ad343e;
@@ -94,7 +105,7 @@ header {
   line-height: 24px;
   letter-spacing: 0px;
   color: #182226;
-  transition: all 1s ease 0.2s;
+  transition: all 0.5s ease 0.2s;
 }
 .menu-container button:hover {
   background-color: #ad343e;
@@ -174,7 +185,7 @@ h1 {
 }
 .different {
   background-color: #ad343e;
-  transition: 1s ease 0.01s;
+  transition: 0.5s ease 0.01s;
 }
 .different a {
   color: #fff;
@@ -183,7 +194,7 @@ h1 {
   background-color: #d8d0d0;
 }
 .second-button {
-  transition: all 1s ease 0.01s;
+  transition: all 0.5s ease 0.01s;
 }
 .second-button:hover {
   background-color: #ad343e;
@@ -234,6 +245,11 @@ h1 {
   justify-content: center;
   row-gap: 30px;
   width: 306px;
+  transition: all 0.5s ease 0.01s;
+}
+.product-div:hover {
+  background-color: aqua;
+  transform: translateY(-10px);
 }
 .icons {
   width: 100px;
@@ -243,7 +259,7 @@ h1 {
   align-items: center;
   justify-content: center;
   border-radius: 100px;
-  transition: 1s ease 0.01s;
+  transition: 0.5s ease 0.01s;
 }
 .icons:hover {
   background-color: #ad343e;
@@ -279,7 +295,7 @@ h1 {
   line-height: 24px;
   letter-spacing: 0px;
   color: #ad343e;
-  transition: 1s ease 0.01s;
+  transition: 0.5s ease 0.01s;
 }
 .product-div h5 a:hover {
   color: aqua;
@@ -315,11 +331,12 @@ h1 {
   background-color: #474747;
   color: #ffffff;
   padding: 30px;
-  transition: 1s ease 0.01s;
+  transition: all 0.5s ease 0.01s;
   border-radius: 12px;
 }
 .again-contact:hover {
   background-color: chocolate;
+  transform: translateY(-5px);
 }
 .again-contact a {
   color: #fff;
@@ -331,7 +348,7 @@ h1 {
 }
 .again-contact a:hover {
   color: black;
-  transition: 1s ease 0.01s;
+  transition: 0.5s ease 0.01s;
 }
 .again-contact h4 {
   font-weight: 700;
@@ -340,7 +357,7 @@ h1 {
   letter-spacing: -3%;
   font-family: "DM Sans 18pt";
   margin-bottom: 45px;
-  transition: 1s ease 0.01s;
+  transition: 0.5s ease 0.01s;
 }
 .again-contact h4:hover {
   color: black;
@@ -390,26 +407,26 @@ h1 {
   letter-spacing: 0px;
   font-family: "DM Sans 18pt";
 }
-.healthy-food button{
+.healthy-food button {
   width: 179px;
   height: 64px;
   padding: 20px 32px;
-  border: 1.5px solid #2C2F24;
+  border: 1.5px solid #2c2f24;
   border-radius: 118px;
-  transition: 1s ease 0.01s;
+  transition: 0.5s ease 0.01s;
 }
-.healthy-food button:hover{
+.healthy-food button:hover {
   background-color: #ad343e;
 }
-.healthy-food a{
-font-family: "DM Sans 18pt";
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0px;
-color: #182226;
-transition: 1s ease 0.01s;
+.healthy-food a {
+  font-family: "DM Sans 18pt";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #182226;
+  transition: 0.5s ease 0.01s;
 }
-.healthy-food a:hover{
+.healthy-food a:hover {
   color: #fff;
 }
