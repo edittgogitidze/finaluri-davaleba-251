@@ -154,6 +154,9 @@
   .light {
     font-size: 12px;
   }
+   .email {
+    display: none;
+  }
 }
 
 @media (max-width: 580px) {
@@ -163,9 +166,7 @@
   .button-class {
     display: none;
   }
-  .email {
-    display: none;
-  }
+ 
   .burger-bar {
     font-size: 25px;
   }
