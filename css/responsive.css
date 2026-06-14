@@ -415,5 +415,14 @@
   .customers-div h3{
   font-size: 25px;
 }
-
+.review-block{
+  padding: 25px 15px 15px;
+  
+}
+.cust-side h4{
+  font-size: 20px;
+}
+.cust-side h6{
+  font-size: 14px;
+}
 }
