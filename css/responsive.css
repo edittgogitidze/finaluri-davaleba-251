@@ -142,6 +142,13 @@
     width: 100%;
     row-gap: 80px;
   }
+
+  /*მეექვსე სექცია*/
+.disp-none{
+  display: none;
+}
+
+
 }
 
 @media (max-width: 830px) {
@@ -220,6 +227,19 @@
   .for-flex p {
     font-size: 16px;
   }
+  .boxes-part{
+    flex-direction: column;
+    row-gap: 50px;
+    text-align: center;
+  }
+.image-class{
+  justify-content: center;
+  align-items: center;
+}
+.customers-div h3{
+  font-size: 40px;
+  text-align: center;
+}
 }
 
 @media (max-width: 580px) {
@@ -298,6 +318,9 @@
   }
 .food-pic{
   display: none;
+}
+.customers-div h3{
+  font-size: 30px;
 }
 }
 
@@ -389,4 +412,8 @@
     font-weight: 18px;
     line-height: 100%;
   }
+  .customers-div h3{
+  font-size: 25px;
+}
+
 }
