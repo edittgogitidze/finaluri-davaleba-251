@@ -442,31 +442,59 @@ h1 {
   color: #fff;
 }
 
-
 /*მეოთხე სექცია*/
-.sevrices{
+.sevrices {
   max-width: 1296px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   row-gap: 64px;
   margin-bottom: 120px;
 }
-.all-boxes{
+.all-boxes {
   display: flex;
   justify-content: space-between;
   column-gap: 24px;
 }
-.block-class img{
+.block-class img {
   width: 100%;
   border-radius: 12px;
 }
-.block-class{
+.block-class {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
 }
-.for-info{
-  width: 280px;
+
+.sevrices h3 {
+  font-family: "Playfair Display";
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 60.5px;
+  letter-spacing: 0px;
+  color: #2c2f24;
+  width: 675px;
+}
+.for-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.for-info h5 {
+  font-family: "DM Sans 18pt";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -3%;
+  color: #2c2f24;
+}
+.for-info p {
+  font-family: "DM Sans 18pt";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #414536;
+  padding-right: 25px;
 }

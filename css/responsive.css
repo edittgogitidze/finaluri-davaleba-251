@@ -97,6 +97,32 @@
   .for-family h3 {
     font-size: 40px;
   }
+
+  /*მეოთხე სექცია*/
+  .sevrices h3 {
+    width: 100%;
+  }
+  .all-boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-services {
+    width: 47%;
+    margin-bottom: 70px;
+  }
+  .sevrices h3 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .for-info {
+    row-gap: 8px;
+  }
+  .block-class {
+    row-gap: 15px;
+  }
+  .for-info p{
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 830px) {
@@ -154,9 +180,20 @@
   .light {
     font-size: 12px;
   }
-   .email {
+  .email {
     display: none;
   }
+
+  .sevrices h3 {
+    font-size: 30px;
+  }
+  .for-info h5{
+    font-size: 20px;
+  }
+  .for-info p{
+    font-size: 12px;
+  }
+
 }
 
 @media (max-width: 580px) {
@@ -166,7 +203,7 @@
   .button-class {
     display: none;
   }
- 
+
   .burger-bar {
     font-size: 25px;
   }
@@ -191,9 +228,10 @@
   h1 {
     font-size: 40px;
     color: rgb(8, 39, 29);
+    line-height: 110%;
   }
   .text-side h4 {
-    font-size: 16px;
+    display: none;
   }
   .buttons-side {
     column-gap: 8px;
@@ -213,8 +251,25 @@
   .light {
     display: none;
   }
-  .healthy-food button{
+  .healthy-food button {
     width: 100%;
+  }
+    .for-info h5{
+    font-size: 20px;
+  }
+    .for-info p{
+    font-size: 16px;
+  }
+  .all-boxes {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .about-services{
+    width: 96%;
+  }
+  .block-class{
+    row-gap: 30px;
   }
 }
 
@@ -242,8 +297,9 @@
     font-size: 14px;
   }
   h1 {
-    font-size: 28px;
+    font-size: 35px;
     color: rgb(12, 6, 0);
+    line-height: 110%;
   }
   .text-side h4 {
     font-size: 12px;
@@ -280,7 +336,7 @@
   .phone-number {
     display: none;
   }
-  .social-icons{
+  .social-icons {
     margin: 0 auto;
     display: flex;
     column-gap: 20px;
@@ -289,7 +345,7 @@
     text-align: center;
   }
   .for-family h3 {
-    font-size: 25px;
+    font-size: 16px;
   }
   .dark,
   .light {
