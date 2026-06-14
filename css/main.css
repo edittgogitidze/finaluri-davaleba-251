@@ -309,7 +309,7 @@ h1 {
   transition: 0.5s ease 0.01s;
 }
 .product-div h5 a:hover {
-  color: aqua;
+  color: rgb(12, 12, 12);
 }
 
 /*მესამე სექცია*/
@@ -451,6 +451,10 @@ h1 {
   flex-direction: column;
   row-gap: 64px;
   margin-bottom: 120px;
+ 
+}
+.services:hover{
+  transform: translateY(-10px);
 }
 .all-boxes {
   display: flex;
@@ -497,4 +501,11 @@ h1 {
   letter-spacing: 0px;
   color: #414536;
   padding-right: 25px;
+}
+.about-services{
+  transition:  0.5s ease 0.01s;
+}
+.about-services:hover{
+  transform: translateY(-10px);
+  
 }
