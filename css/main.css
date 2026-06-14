@@ -443,7 +443,7 @@ h1 {
 }
 
 /*მეოთხე სექცია*/
-.sevrices {
+.services {
   max-width: 1296px;
   width: 95%;
   margin: 0 auto;
@@ -467,7 +467,7 @@ h1 {
   row-gap: 30px;
 }
 
-.sevrices h3 {
+.services h3 {
   font-family: "Playfair Display";
   font-weight: 500;
   font-size: 55px;
