@@ -441,3 +441,32 @@ h1 {
 .healthy-food a:hover {
   color: #fff;
 }
+
+
+/*მეოთხე სექცია*/
+.sevrices{
+  max-width: 1296px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
+  margin-bottom: 120px;
+}
+.all-boxes{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 24px;
+}
+.block-class img{
+  width: 100%;
+  border-radius: 12px;
+}
+.block-class{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.for-info{
+  width: 280px;
+}
