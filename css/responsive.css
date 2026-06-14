@@ -120,14 +120,21 @@
   .block-class {
     row-gap: 15px;
   }
-  .for-info p{
+  .for-info p {
     font-size: 14px;
   }
 
-  /*მესამე სექცია*/
+  /*მეხუთე სექცია*/
 
-  .about-delivery{
+  .about-delivery {
     width: 100%;
+    text-align: center;
+  }
+  .delivery-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 80px;
   }
 }
 
@@ -189,18 +196,21 @@
   .email {
     display: none;
   }
-.services{
-  row-gap: 30px;
-}
+  .services {
+    row-gap: 30px;
+  }
   .services h3 {
     font-size: 40px;
   }
-  .for-info h5{
+  .for-info h5 {
     font-size: 20px;
   }
-  .for-info p{
+  .for-info p {
     font-size: 12px;
   }
+.about-delivery h3{
+  font-size: 40px;
+}
 
 }
 
@@ -262,21 +272,20 @@
   .healthy-food button {
     width: 100%;
   }
-    .for-info h5{
+  .for-info h5 {
     font-size: 20px;
   }
-    .for-info p{
+  .for-info p {
     font-size: 14px;
   }
   .all-boxes {
     display: flex;
     flex-direction: column;
-   
   }
-  .about-services{
+  .about-services {
     width: 96%;
   }
-  .block-class{
+  .block-class {
     row-gap: 30px;
   }
 }
@@ -359,13 +368,13 @@
   .light {
     display: none;
   }
-  .for-info h5{
+  .for-info h5 {
     font-size: 16px;
   }
-  .for-info p{
+  .for-info p {
     font-size: 14px;
   }
-  .services h3{
+  .services h3 {
     font-weight: 18px;
     line-height: 100%;
   }
