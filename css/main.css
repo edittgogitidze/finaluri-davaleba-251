@@ -726,14 +726,3 @@ letter-spacing: 0px;
   flex-direction: column;
   row-gap: 8px;
 }
-.divide-div{
-  display: flex;
-  column-gap: 24px;
-
-}
-.btn-class{
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
