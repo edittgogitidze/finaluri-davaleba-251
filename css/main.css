@@ -785,13 +785,43 @@ h1 {
   letter-spacing: 0px;
   color: #414536;
 }
-.yammy{
-  border-radius: 12px; 
+.yammy {
+  border-radius: 12px;
+  width: 306px;
+  transition: 0.5s ease 0.01s;
 }
-.how-prepare{
-  background-color:#FFFFFF ;
-  padding: 30px 25px 14px;
+.yammy img{
+  border-radius: 12px;
 }
+.yammy:hover{
+  transform: translateY(-10px);
+}
+.how-prepare {
+  background-color: #ffffff;
+  padding: 30px 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.how-prepare p {
+  font-family: "DM Sans 18pt";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #737865;
+}
+.how-prepare h5{
+font-family: "DM Sans 18pt";
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0px;
+color: #2C2F24;
+}
+
+
+
 
 
 
