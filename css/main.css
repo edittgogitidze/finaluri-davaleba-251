@@ -856,6 +856,7 @@ footer {
   justify-content: center;
   align-items: center;
   column-gap: 135px;
+  align-items: flex-start;
 }
 .middle-block {
   display: flex;
@@ -868,6 +869,10 @@ footer {
 .footer-block img {
   width: 100%;
   display: block;
+  transition: 0.5s ease 0.01s;
+}
+.footer-block img:hover {
+  transform: translateY(-6px);
 }
 
 .about-row {
@@ -880,10 +885,16 @@ footer {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
+  width: 293px;
 }
 .footer-logo {
-  padding-right: 150px;
+  padding-right: 63.17px;
+  transition: 0.5s ease 0.01s;
 }
+.footer-logo:hover {
+  transform: translateY(-5px);
+}
+
 .left-block h5 {
   font-family: "DM Sans 18pt";
   font-weight: 400;
@@ -912,6 +923,43 @@ footer {
 .footer-icons a:hover {
   transform: translateY(-4px);
 }
+
+.footer-block h5 {
+  margin-bottom: 40px;
+  color: #ffffff;
+  font-family: "DM Sans 18pt";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.middle-block a {
+  font-family: "DM Sans 18pt";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #dbdfd0;
+}
+
+.ul-lists {
+ display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*ფორმები*/
 
