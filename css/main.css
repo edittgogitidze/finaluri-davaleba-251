@@ -1,3 +1,6 @@
+body {
+  background-color: #e0e2dc;
+}
 /*ჰედერის ნაწილი*/
 header {
   position: sticky;
@@ -247,7 +250,7 @@ h1 {
   width: 100%;
 }
 .product-div {
-  border: 1.5px solid#DBDFD0;
+  border: 1.5px solid#e5e9df;
   border-radius: 12px;
   padding: 40px 34px 32px;
   display: flex;
@@ -257,6 +260,7 @@ h1 {
   row-gap: 30px;
   width: 306px;
   transition: all 0.5s ease 0.01s;
+  background-color: #dbdfd0;
 }
 .product-div:hover {
   background-color: aqua;
@@ -313,7 +317,6 @@ h1 {
 }
 
 /*მესამე სექცია*/
-
 .purpose-class {
   max-width: 1296px;
   width: 100%;
@@ -443,6 +446,7 @@ h1 {
 }
 
 /*მეოთხე სექცია*/
+
 .services {
   max-width: 1296px;
   width: 95%;
@@ -697,7 +701,7 @@ h1 {
   row-gap: 64px;
   margin-bottom: 137px;
 }
-.blog-section img{
+.blog-section img {
   width: 100%;
 }
 .head-side {
@@ -746,6 +750,40 @@ h1 {
   line-height: 24px;
   letter-spacing: 0px;
   color: #ffffff;
+}
+.burger-side {
+  border-radius: 12px;
+  background-color: #f9f9f7;
+}
+.burger-secret {
+  padding: 45px 33px 53px 35px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.burger-secret p {
+  font-family: "DM Sans 18pt";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #737865;
+}
+.burger-secret h5 {
+  font-family: "DM Sans 18pt";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #2c2f24;
+}
+.burger-secret h6 {
+  font-family: "DM Sans 18pt";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #414536;
 }
 
 /*ფორმები*/
