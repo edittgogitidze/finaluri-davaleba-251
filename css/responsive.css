@@ -144,16 +144,9 @@
   }
 
   /*მეექვსე სექცია*/
-.disp-none{
-  display: none;
-}
-/*მეშვიდე სექცია*/
-.for-texts{
-  width: 100%;
-}
-
-
-
+  .disp-none {
+    display: none;
+  }
 }
 
 @media (max-width: 830px) {
@@ -232,19 +225,19 @@
   .for-flex p {
     font-size: 16px;
   }
-  .boxes-part{
+  .boxes-part {
     flex-direction: column;
     row-gap: 50px;
     text-align: center;
   }
-.image-class{
-  justify-content: center;
-  align-items: center;
-}
-.customers-div h3{
-  font-size: 40px;
-  text-align: center;
-}
+  .image-class {
+    justify-content: center;
+    align-items: center;
+  }
+  .customers-div h3 {
+    font-size: 40px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 580px) {
@@ -321,12 +314,12 @@
   .block-class {
     row-gap: 30px;
   }
-.food-pic{
-  display: none;
-}
-.customers-div h3{
-  font-size: 30px;
-}
+  .food-pic {
+    display: none;
+  }
+  .customers-div h3 {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -417,17 +410,16 @@
     font-weight: 18px;
     line-height: 100%;
   }
-  .customers-div h3{
-  font-size: 25px;
-}
-.review-block{
-  padding: 25px 15px 15px;
-  
-}
-.cust-side h4{
-  font-size: 20px;
-}
-.cust-side h6{
-  font-size: 14px;
-}
+  .customers-div h3 {
+    font-size: 25px;
+  }
+  .review-block {
+    padding: 25px 15px 15px;
+  }
+  .cust-side h4 {
+    font-size: 20px;
+  }
+  .cust-side h6 {
+    font-size: 14px;
+  }
 }

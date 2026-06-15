@@ -686,9 +686,13 @@ h1 {
   color: #414536;
 }
 
-/*მეშვიდე სექცია*/
 
-.form-tags {
+
+
+
+/*ფორმები*/
+
+/* .form-tags {
   max-width: 1296px;
   width: 100%;
   margin: 0 auto;
@@ -705,7 +709,6 @@ h1 {
 }
 .for-texts {
   text-align: center;
-  /* width: 400px; */
 }
 .for-texts h2 {
   font-family: "Playfair Display";
@@ -714,15 +717,36 @@ h1 {
   line-height: 96px;
   letter-spacing: 0px;
 }
-.for-texts h5{
-font-family: "DM Sans 18pt";
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-letter-spacing: 0px;
+.for-texts h5 {
+  font-family: "DM Sans 18pt";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0px;
 }
-.for-row-gap{
+.for-row-gap {
   display: flex;
   flex-direction: column;
   row-gap: 8px;
 }
+.divide-div {
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+}
+.btn-class {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.for-width {
+  max-width: 560px;
+  width: 100%;
+}
+.input-el {
+  width: 100%;
+}
+.input-class {
+  padding: 10px 10px;
+} */
