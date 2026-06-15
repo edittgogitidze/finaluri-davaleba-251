@@ -345,7 +345,7 @@
     font-size: 40px;
   }
   .head-side button {
-    width: 40%;
+    width: 50%;
     padding: 10px 22px;
     height: 45px;
   }
@@ -362,8 +362,16 @@
     font-size: 16px;
   }
   .burger-secret h6 {
-    font-size: 14px;
+    display: none;
   }
+  .mini-boxes {
+    flex-direction: column;
+  }
+
+  /* .food-boxes {
+    display: flex;
+    flex-direction: column;
+  } */
 }
 
 @media (max-width: 400px) {
@@ -473,8 +481,14 @@
   .burger-secret h5 {
     font-size: 14px;
   }
-  .burger-secret h6 {
-    font-size: 12px;
-    display: none;
+
+  .head-side button {
+    width: 70%;
+  }
+  .how-prepare p {
+    font-size: 8px;
+  }
+  .how-prepare h5 {
+    font-size: 10px;
   }
 }
