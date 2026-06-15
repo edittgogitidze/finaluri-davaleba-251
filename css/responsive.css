@@ -148,14 +148,13 @@
     display: none;
   }
   /*მეშვიდე სექცია*/
-.yammy{
-  width: 100%;
-}
-.food-block{
-  flex-direction: column;
-/* row-gap: 50px; */
-}
-
+  .yammy {
+    width: 100%;
+  }
+  .food-block {
+    flex-direction: column;
+    /* row-gap: 50px; */
+  }
 }
 
 @media (max-width: 830px) {
@@ -248,16 +247,18 @@
     text-align: center;
   }
   /*მეშვიდე სექცია*/
-.head-side{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  row-gap: 30px;
-}
-.head-side button{
-  width: 50%;
-}
-
+  .head-side {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+  }
+  .head-side button {
+    width: 50%;
+  }
+  .how-prepare h5 {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 580px) {
@@ -340,15 +341,29 @@
   .customers-div h3 {
     font-size: 30px;
   }
-.head-side h3{
-  font-size: 40px;
-}
-.head-side button{
-width: 40%;
-padding: 10px 22px;
-height: 45px;
-}
-
+  .head-side h3 {
+    font-size: 40px;
+  }
+  .head-side button {
+    width: 40%;
+    padding: 10px 22px;
+    height: 45px;
+  }
+  .how-prepare p {
+    font-size: 12px;
+  }
+  .how-prepare h5 {
+    font-size: 14px;
+  }
+  .burger-secret p {
+    font-size: 14px;
+  }
+  .burger-secret h5 {
+    font-size: 16px;
+  }
+  .burger-secret h6 {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -450,5 +465,16 @@ height: 45px;
   }
   .cust-side h6 {
     font-size: 14px;
+  }
+
+  .burger-secret p {
+    font-size: 12px;
+  }
+  .burger-secret h5 {
+    font-size: 14px;
+  }
+  .burger-secret h6 {
+    font-size: 12px;
+    display: none;
   }
 }
