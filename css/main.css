@@ -686,6 +686,50 @@ h1 {
   color: #414536;
 }
 
+/*მეშვიდე სექცია*/
+.blog-section{
+  max-width: 1296px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
+}
+.head-side{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.food-block{
+  display: flex;
+  column-gap: 24px;
+}
+.mini-boxes{
+  display: flex;
+  column-gap: 24px;
+}
+.food-boxes{
+display: flex;
+flex-direction: column;
+row-gap: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
