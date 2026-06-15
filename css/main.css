@@ -626,7 +626,7 @@ h1 {
   row-gap: 64px;
   transition: all 0.5s ease 0.01s;
 }
-.review-block:hover{
+.review-block:hover {
   background-color: aqua;
   transform: translateY(-10px);
 }
@@ -686,12 +686,54 @@ h1 {
   color: #414536;
 }
 
-
 /*მეშვიდე სექცია*/
 
-.form-tags{
+.form-tags {
   max-width: 1296px;
   width: 100%;
   margin: 0 auto;
   display: flex;
+  column-gap: 70px;
+  row-gap: 120px;
+  margin-bottom: 120px;
+}
+.book-a-table,
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.for-texts {
+  text-align: center;
+  /* width: 400px; */
+}
+.for-texts h2 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 96px;
+  letter-spacing: 0px;
+}
+.for-texts h5{
+font-family: "DM Sans 18pt";
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0px;
+}
+.for-row-gap{
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.divide-div{
+  display: flex;
+  column-gap: 24px;
+
+}
+.btn-class{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

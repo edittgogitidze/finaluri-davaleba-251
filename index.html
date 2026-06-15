@@ -382,41 +382,51 @@
               </h5>
             </div>
             <form action="#">
-              <div>
-                <label for="date">Date</label>
-                <input
-                  type="date"
-                  id="date"
-                  name="datefield"
-                  placeholder="04/01/2021"
-                />
-
-                <label for="time">Time</label>
-                <input
-                  type="time"
-                  id="time"
-                  name="datafield"
-                  placeholder="06:30 PM"
-                />
+              <div class="divide-div">
+                <div>
+                  <div class="for-row-gap">
+                    <label for="date">Date</label>
+                    <input
+                      type="date"
+                      id="date"
+                      name="datefield"
+                      placeholder="04/01/2021"
+                    />
+                  </div>
+                  <div class="for-row-gap">
+                    <label for="time">Time</label>
+                    <input
+                      type="time"
+                      id="time"
+                      name="datafield"
+                      placeholder="06:30 PM"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div class="for-row-gap">
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="namefield"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+                  <div class="for-row-gap">
+                    <label for="number">Phone</label>
+                    <input
+                      type="number"
+                      id="number"
+                      name="numberfield"
+                      placeholder="xxx-xxx-xxx"
+                    />
+                  </div>
+                </div>
               </div>
-              <div>
-                <label for="name">Name</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="namefield"
-                  placeholder="Enter your name"
-                />
-
-                <label for="number">Phone</label>
-                <input
-                  type="number"
-                  id="number"
-                  name="numberfield"
-                  placeholder="xxx-xxx-xxx"
-                />
+              <div class="btn-class">
+                <button>Book A Table</button>
               </div>
-              <button>Book A Table</button>
             </form>
           </div>
           <div class="contact-form">
@@ -445,7 +455,11 @@
                 />
               </div>
               <label for="message">Message</label>
-              <textarea name="messagefield" id="message" placeholder="Write your message"></textarea>
+              <textarea
+                name="messagefield"
+                id="message"
+                placeholder="Write your message"
+              ></textarea>
               <div>
                 <button type="submit">Send</button>
                 <button type="reset">reset</button>
