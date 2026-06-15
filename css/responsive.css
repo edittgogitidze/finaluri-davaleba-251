@@ -160,6 +160,10 @@
   .left-block{
     width: 100%;
   }
+  .right-block{
+    display: none;
+  }
+  
 }
 
 @media (max-width: 830px) {
