@@ -687,52 +687,66 @@ h1 {
 }
 
 /*მეშვიდე სექცია*/
-.blog-section{
+
+.blog-section {
   max-width: 1296px;
   width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   row-gap: 64px;
+  margin-bottom: 137px;
 }
-.head-side{
+.blog-section img{
+  width: 100%;
+}
+.head-side {
   display: flex;
   justify-content: space-between;
   text-align: center;
 }
-.food-block{
+.food-block {
   display: flex;
   column-gap: 24px;
 }
-.mini-boxes{
+.mini-boxes {
   display: flex;
   column-gap: 24px;
 }
-.food-boxes{
-display: flex;
-flex-direction: column;
-row-gap: 24px;
+.food-boxes {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.head-side h3 {
+  font-family: "Playfair Display";
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 60.5px;
+  letter-spacing: 0px;
+  color: #2c2f24;
+}
+.head-side button {
+  width: 192px;
+  height: 64px;
+  border-radius: 118px;
+  padding: 20px 32px;
+  background-color: #ad343e;
+  transition: all 0.5s ease 0.01s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.head-side button:hover {
+  background-color: #474747;
+  transform: translateY(-5px);
+}
+.head-side button a {
+  font-family: "DM Sans 18pt";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
 
 /*ფორმები*/
 
