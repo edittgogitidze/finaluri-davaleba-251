@@ -151,7 +151,10 @@
 .yammy{
   width: 100%;
 }
-
+.food-block{
+  flex-direction: column;
+/* row-gap: 50px; */
+}
 
 }
 
@@ -244,6 +247,17 @@
     font-size: 40px;
     text-align: center;
   }
+  /*მეშვიდე სექცია*/
+.head-side{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+}
+.head-side button{
+  width: 50%;
+}
+
 }
 
 @media (max-width: 580px) {
@@ -326,6 +340,15 @@
   .customers-div h3 {
     font-size: 30px;
   }
+.head-side h3{
+  font-size: 40px;
+}
+.head-side button{
+width: 40%;
+padding: 10px 22px;
+height: 45px;
+}
+
 }
 
 @media (max-width: 400px) {

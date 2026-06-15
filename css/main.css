@@ -736,6 +736,8 @@ h1 {
   border-radius: 118px;
   padding: 20px 32px;
   background-color: #ad343e;
+  outline: none;
+  border: none;
   transition: all 0.5s ease 0.01s;
 }
 
@@ -754,6 +756,10 @@ h1 {
 .burger-side {
   border-radius: 12px;
   background-color: #f9f9f7;
+  transition: all 0.5s ease 0.01s;
+}
+.burger-side:hover{
+  transform: translateY(-10px);
 }
 .burger-secret {
   padding: 45px 33px 53px 35px;
@@ -791,6 +797,7 @@ h1 {
   transition: 0.5s ease 0.01s;
 }
 .yammy img{
+  display: block;
   border-radius: 12px;
 }
 .yammy:hover{
