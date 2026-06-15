@@ -689,3 +689,9 @@ h1 {
 
 /*მეშვიდე სექცია*/
 
+.form-tags{
+  max-width: 1296px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
