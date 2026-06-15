@@ -758,7 +758,7 @@ h1 {
   background-color: #f9f9f7;
   transition: all 0.5s ease 0.01s;
 }
-.burger-side:hover{
+.burger-side:hover {
   transform: translateY(-10px);
 }
 .burger-secret {
@@ -796,11 +796,11 @@ h1 {
   width: 306px;
   transition: 0.5s ease 0.01s;
 }
-.yammy img{
+.yammy img {
   display: block;
   border-radius: 12px;
 }
-.yammy:hover{
+.yammy:hover {
   transform: translateY(-10px);
 }
 .how-prepare {
@@ -818,40 +818,84 @@ h1 {
   letter-spacing: 0px;
   color: #737865;
 }
-.how-prepare h5{
-font-family: "DM Sans 18pt";
-font-weight: 500;
-font-size: 20px;
-line-height: 26px;
-letter-spacing: 0px;
-color: #2C2F24;
+.how-prepare h5 {
+  font-family: "DM Sans 18pt";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #2c2f24;
 }
 
+/*ფუტერი*/
+footer {
+  background-color: #474747;
+}
+.footer-block {
+  max-width: 1296px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 135px;
+  margin-bottom: 120px;
+}
+.middle-block {
+  display: flex;
+  column-gap: 120px;
+}
+.footer-pics {
+  display: flex;
+  column-gap: 15px;
+}
+.footer-block img {
+  width: 100%;
+  display: block;
+}
 
+.about-row {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
 
+.left-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.footer-logo {
+  padding-right: 150px;
+}
+.left-block h5 {
+  font-family: "DM Sans 18pt";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #adb29e;
+}
+.footer-icons {
+  display: flex;
+  column-gap: 15px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-icons a {
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: #ad343e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  transition: 0.5s ease 0.2s;
+}
+.footer-icons a:hover {
+  transform: translateY(-4px);
+}
 
 /*ფორმები*/
 
