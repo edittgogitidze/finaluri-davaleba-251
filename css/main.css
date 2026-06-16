@@ -999,8 +999,14 @@ font-size: 20px;
 border: 1px solid rgb(172, 36, 36);
 outline: none;
 background-color:#d6c2c2;
-border-radius: 118px;
+border-radius: 12px;
 padding: 10px 20px;
 display: inline-block;
-width: 70%;
+width: 50%;
+transition: all 0.5s ease 0.01s;
+}
+.btn-class:hover{
+ background-color: #ad343e;
+ color: #fff;
+ transform: translateY(-3px);
 }
