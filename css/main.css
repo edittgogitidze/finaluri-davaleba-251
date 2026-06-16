@@ -123,6 +123,7 @@ header {
 }
 .menu-container button:hover {
   background-color: #ad343e;
+  transform: translateY(-3px);
 }
 .menu-container button a:hover {
   color: #f2f5ec;
@@ -130,6 +131,10 @@ header {
 .burger-bar {
   display: none;
   font-size: 35px;
+  transition: 0.5s ease 0.2s;
+}
+.burger-bar:hover{
+  transform: translateY(-2px);
 }
 
 /*პირველი სექცია*/

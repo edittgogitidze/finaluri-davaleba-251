@@ -31,6 +31,7 @@
   }
   .buttons-side {
     column-gap: 8px;
+
   }
 
   /*მეორე სექცია*/
@@ -85,10 +86,9 @@
   .contact-img {
     width: 95%;
   }
+ 
   .healthy-food {
     width: 95%;
-  }
-  .healthy-food {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -346,13 +346,10 @@
   }
   .main-text {
     width: 100%;
+    row-gap: 150px;
   }
-  .buttons-side button {
-    width: 150px;
-    height: 40px;
-    font-size: 14px;
-    border: none;
-  }
+  ma
+  
   .text-side {
     row-gap: 8px;
   }
@@ -375,7 +372,7 @@
   }
 
   .for-family h3 {
-    font-size: 35px;
+    font-size: 25px;
     color: black;
   }
   .dark,
@@ -383,7 +380,7 @@
     display: none;
   }
   .healthy-food button {
-    width: 100%;
+    width: 70%;
   }
   .for-info h5 {
     font-size: 20px;
@@ -461,7 +458,7 @@
   .buttons-side {
     flex-direction: column;
     font-size: 16px;
-    row-gap: 8px;
+    row-gap: 20px;
     width: 100%;
   }
   .buttons-side button {
@@ -471,8 +468,11 @@
     height: 35px;
     font-size: 14px;
   }
+  .main-text{
+    row-gap: 85px;
+  }
   h1 {
-    font-size: 35px;
+    font-size: 40px;
     color: rgb(12, 6, 0);
     line-height: 110%;
   }
@@ -520,7 +520,7 @@
     text-align: center;
   }
   .for-family h3 {
-    font-size: 16px;
+    font-size: 22px;
   }
   .dark,
   .light {
