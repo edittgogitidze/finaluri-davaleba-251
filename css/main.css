@@ -856,19 +856,7 @@ footer {
   justify-content: center;
   align-items: center;
   column-gap: 135px;
-  align-items:flex-start;
-}
-.footer-pics {
-  display: flex;
-  column-gap: 15px;
-}
-.footer-block img {
-  width: 100%;
-  display: block;
-  transition: 0.5s ease 0.01s;
-}
-.footer-block img:hover {
-  transform: translateY(-6px);
+  align-items: flex-start;
 }
 
 .about-row {
@@ -884,17 +872,14 @@ footer {
   width: 293px;
 }
 .footer-logo {
- 
-  padding-right: 63.17px;
   transition: 0.5s ease 0.01s;
 }
 .footer-logo:hover {
   transform: translateY(-5px);
 }
-.footer-logo img{
+.footer-logo img {
   width: 100%;
 }
-
 
 .footer-icons {
   display: flex;
@@ -927,15 +912,6 @@ footer {
   letter-spacing: 0px;
 }
 
-.middle-block a {
-  font-family: "DM Sans 18pt";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0px;
-  color: #dbdfd0;
-}
-
 .ul-lists {
   display: flex;
   flex-direction: column;
@@ -964,30 +940,51 @@ footer {
   column-gap: 70px;
   row-gap: 120px;
   margin-bottom: 120px;
- 
 }
-/* .book-a-table {
-  display: flex;
-  flex-direction: column;
-  row-gap: 0px;
-} */
-.form-block{
+
+.form-block {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
 }
-.labels-block{
+.labels-block {
   display: flex;
   flex-direction: column;
   row-gap: 15px;
 }
-.labels-block input{
-  padding: 10px 40px ;
+.labels-block input {
+  padding: 10px 40px;
   border-radius: 12px;
   outline: none;
   border: none;
   display: flex;
-  width: 400px;
+  width: 350px;
   background-color: #d6c2c2;
- 
+  transition: 0.5s ease 0.01s;
+}
+
+.labels-block input:hover {
+  background-color: #fff;
+}
+.labels-block ::placeholder {
+  font-family: "DM Sans 18pt";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #737865;
+}
+
+.labels-block div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+label {
+  font-family: "DM Sans 18pt";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #fff;
 }

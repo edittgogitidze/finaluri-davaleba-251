@@ -289,9 +289,7 @@
   .nav-block h5 {
     margin: 30px 0px 10px;
   }
-  .left-block {
-    row-gap: 50px;
-  }
+ 
   .copy {
     font-size: 14px;
   }
@@ -308,6 +306,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+     row-gap: 50px;
   }
 }
 
@@ -426,17 +425,16 @@
   .footer-block {
     display: flex;
     flex-direction: column;
+    
   }
-  .middle-block {
-    display: none;
-  }
-  .nav-block h5 {
-    display: none;
+ 
+   .left-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     row-gap: 50px;
   }
 
-  .footer-logo {
-    padding-right: 0px;
-  }
   .copy {
     text-align: center;
     font-size: 10px;
@@ -563,4 +561,5 @@
   .copy {
     font-size: 8px;
   }
+   
 }
