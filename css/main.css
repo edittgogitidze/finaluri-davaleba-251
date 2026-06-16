@@ -856,7 +856,7 @@ footer {
   justify-content: center;
   align-items: center;
   column-gap: 135px;
-  align-items: flex-start;
+  align-items:flex-start;
 }
 .middle-block {
   display: flex;
@@ -955,7 +955,6 @@ footer {
   font-size: 30px;
   line-height: 96px;
   letter-spacing: 0px;
-  text-align: center;
   color: #fff;
   transition: 0.5s ease 0.01s;
 }
@@ -963,8 +962,6 @@ footer {
   color: orangered;
   transform: translateY(-5px);
 }
-
-/*ფორმები*/
 
 .form-tags {
   max-width: 1296px;
@@ -974,16 +971,29 @@ footer {
   column-gap: 70px;
   row-gap: 120px;
   margin-bottom: 120px;
+ 
 }
-.book-a-table {
+/* .book-a-table {
   display: flex;
   flex-direction: column;
-  row-gap: 50px;
-}
-
-.btn-class {
-  margin-top: 20px;
+  row-gap: 0px;
+} */
+.form-block{
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.labels-block{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.labels-block input{
+  padding: 10px 40px ;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  display: flex;
+  width: 400px;
+ 
 }

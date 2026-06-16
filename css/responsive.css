@@ -177,6 +177,11 @@
   .middle-block {
     display: none;
   }
+  .labels-block input{
+    width: 100%;
+  }
+ 
+ 
 }
 
 @media (max-width: 830px) {
