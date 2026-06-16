@@ -944,21 +944,25 @@ footer {
 }
 
 .ul-lists {
- display: flex;
+  display: flex;
   flex-direction: column;
   row-gap: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
+.for-texts {
+  font-family: "DM Sans 18pt";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 96px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+   transition: 0.5s ease 0.01s;
+}
+.for-texts:hover{
+  color: orangered;
+  transform: translateY(-5px);
+}
 
 
 /*ფორმები*/
