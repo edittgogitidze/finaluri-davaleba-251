@@ -855,8 +855,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap:300px;
-  align-items: flex-start;
+  column-gap:100px;
 }
 
 .about-row {
@@ -988,4 +987,12 @@ label {
   line-height: 24px;
   letter-spacing: 0px;
   color: #fff;
+}
+.menu-for-footer .ul-list{
+  flex-direction: column;
+  row-gap: 30px;
+}
+.menu-for-footer a{
+color: #fff;
+font-size: 20px;
 }
