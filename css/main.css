@@ -920,12 +920,11 @@ footer {
 .for-texts {
   font-family: "DM Sans 18pt";
   font-weight: 400;
-  font-size: 40px;
+  font-size: 25px;
   line-height: 96px;
   letter-spacing: 0px;
   color: #fff;
   transition: 0.5s ease 0.01s;
-
 }
 .for-texts:hover {
   color: orangered;
@@ -995,4 +994,13 @@ label {
 .menu-for-footer a{
 color: #fff;
 font-size: 20px;
+}
+.btn-class{
+border: 1px solid rgb(172, 36, 36);
+outline: none;
+background-color:#d6c2c2;
+border-radius: 118px;
+padding: 10px 20px;
+display: inline-block;
+width: 70%;
 }
