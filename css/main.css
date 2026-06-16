@@ -858,10 +858,6 @@ footer {
   column-gap: 135px;
   align-items:flex-start;
 }
-.middle-block {
-  display: flex;
-  column-gap: 120px;
-}
 .footer-pics {
   display: flex;
   column-gap: 15px;
@@ -888,21 +884,18 @@ footer {
   width: 293px;
 }
 .footer-logo {
+ 
   padding-right: 63.17px;
   transition: 0.5s ease 0.01s;
 }
 .footer-logo:hover {
   transform: translateY(-5px);
 }
-
-.left-block h5 {
-  font-family: "DM Sans 18pt";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0px;
-  color: #adb29e;
+.footer-logo img{
+  width: 100%;
 }
+
+
 .footer-icons {
   display: flex;
   column-gap: 15px;
@@ -995,5 +988,6 @@ footer {
   border: none;
   display: flex;
   width: 400px;
+  background-color: #d6c2c2;
  
 }
