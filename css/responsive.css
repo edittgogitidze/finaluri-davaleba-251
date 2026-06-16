@@ -1,3 +1,9 @@
+@media (max-width: 1085px) {
+  .right-block {
+    display: none;
+  }
+}
+
 @media (max-width: 1024px) {
   .navigation {
     display: none;
@@ -157,13 +163,23 @@
   }
 
   /*ფუტერი*/
-  .left-block{
+  .left-block {
     width: 100%;
+    row-gap: 100px;
   }
-  .right-block{
+ 
+  .left-block h5 {
     display: none;
   }
-  
+  .pages-block {
+    display: none;
+  }
+  .nav-block h5 {
+    margin: 60px 0px 10px;
+  }
+  .ul-lists {
+    row-gap: 5px;
+  }
 }
 
 @media (max-width: 830px) {
@@ -267,6 +283,19 @@
   }
   .how-prepare h5 {
     font-size: 16px;
+  }
+  /* .footer-logo {
+    padding-right: 70px;
+  } */
+
+  .nav-block h5 {
+    margin: 30px 0px 10px;
+  }
+  .left-block {
+    row-gap: 50px;
+  }
+    .copy{
+    font-size: 14px;
   }
 }
 
@@ -381,6 +410,30 @@
     display: flex;
     flex-direction: column;
   } */
+
+  .footer-block {
+    display: flex;
+    flex-direction: column;
+
+  }
+ .middle-block{
+  display: none;
+ }
+  .nav-block h5 {
+    display: none;
+  }
+.left-block{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+ .footer-logo {
+    padding-right: 0px;
+  }
+  .copy{
+    text-align: center;
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -499,5 +552,8 @@
   }
   .how-prepare h5 {
     font-size: 10px;
+  }
+   .copy{
+    font-size: 8px;
   }
 }
