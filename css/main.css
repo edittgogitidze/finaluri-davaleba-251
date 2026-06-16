@@ -957,17 +957,16 @@ footer {
   letter-spacing: 0px;
   text-align: center;
   color: #fff;
-   transition: 0.5s ease 0.01s;
+  transition: 0.5s ease 0.01s;
 }
-.for-texts:hover{
+.for-texts:hover {
   color: orangered;
   transform: translateY(-5px);
 }
 
-
 /*ფორმები*/
 
-/* .form-tags {
+.form-tags {
   max-width: 1296px;
   width: 100%;
   margin: 0 auto;
@@ -976,52 +975,15 @@ footer {
   row-gap: 120px;
   margin-bottom: 120px;
 }
-.book-a-table,
-.contact-form {
+.book-a-table {
   display: flex;
   flex-direction: column;
   row-gap: 50px;
 }
-.for-texts {
-  text-align: center;
-}
-.for-texts h2 {
-  font-family: "Playfair Display";
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 96px;
-  letter-spacing: 0px;
-}
-.for-texts h5 {
-  font-family: "DM Sans 18pt";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  letter-spacing: 0px;
-}
-.for-row-gap {
-  display: flex;
-  flex-direction: column;
-  row-gap: 8px;
-}
-.divide-div {
-  display: flex;
-  column-gap: 24px;
-  align-items: center;
-}
+
 .btn-class {
   margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.for-width {
-  max-width: 560px;
-  width: 100%;
-}
-.input-el {
-  width: 100%;
-}
-.input-class {
-  padding: 10px 10px;
-} */
