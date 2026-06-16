@@ -31,7 +31,6 @@
   }
   .buttons-side {
     column-gap: 8px;
-
   }
 
   /*მეორე სექცია*/
@@ -86,7 +85,7 @@
   .contact-img {
     width: 95%;
   }
- 
+
   .healthy-food {
     width: 95%;
     display: flex;
@@ -142,11 +141,24 @@
     width: 100%;
     row-gap: 80px;
   }
+  
+
 
   /*მეექვსე სექცია*/
   .disp-none {
     display: none;
   }
+.customers-div h3 {
+    font-size: 40px;
+  }
+.cust-side h4{
+font-size: 22px;
+}
+.cust-side h6{
+  font-size: 16px;
+}
+
+
   /*მეშვიდე სექცია*/
   .yammy {
     width: 100%;
@@ -313,7 +325,7 @@
     row-gap: 50px;
   }
 
-  .menu-for-footer .ul-list{
+  .menu-for-footer .ul-list {
     display: flex;
     flex-direction: row;
     column-gap: 5px;
@@ -323,8 +335,6 @@
     color: #fff;
     font-size: 16px;
   }
- 
- 
 }
 
 @media (max-width: 580px) {
@@ -348,8 +358,7 @@
     width: 100%;
     row-gap: 150px;
   }
-  
-  
+
   .text-side {
     row-gap: 8px;
   }
@@ -395,13 +404,13 @@
   .about-services {
     width: 96%;
   }
-  .about-delivery h3{
-    font-size:24px;
+  .about-delivery h3 {
+    font-size: 24px;
   }
   .block-class {
     row-gap: 30px;
   }
-  .services h3{
+  .services h3 {
     font-size: 25px;
   }
   .food-pic {
@@ -446,7 +455,7 @@
     text-align: center;
     font-size: 10px;
   }
-  .menu-for-footer{
+  .menu-for-footer {
     display: none;
   }
 }
@@ -474,7 +483,7 @@
     height: 35px;
     font-size: 14px;
   }
-  .main-text{
+  .main-text {
     row-gap: 85px;
   }
   h1 {
@@ -487,8 +496,8 @@
     color: black;
   }
 
-   .about-delivery h3{
-    font-size:20px;
+  .about-delivery h3 {
+    font-size: 20px;
   }
   .about-menu {
     row-gap: 40px;
