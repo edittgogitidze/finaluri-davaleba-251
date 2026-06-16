@@ -423,17 +423,6 @@
     flex-direction: column;
   } */
 
-  .footer-block {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .left-block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    row-gap: 50px;
-  }
 
   .copy {
     text-align: center;
@@ -561,4 +550,5 @@
   .copy {
     font-size: 8px;
   }
+
 }
