@@ -835,7 +835,7 @@ footer {
   display: flex;
   flex-direction: column;
   row-gap: 100px;
-  padding: 120px 85px;
+  padding: 90px 65px;
 }
 .copy {
   margin: 0 auto;
@@ -855,7 +855,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 135px;
+  column-gap:300px;
   align-items: flex-start;
 }
 
@@ -921,11 +921,12 @@ footer {
 .for-texts {
   font-family: "DM Sans 18pt";
   font-weight: 400;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 96px;
   letter-spacing: 0px;
   color: #fff;
   transition: 0.5s ease 0.01s;
+
 }
 .for-texts:hover {
   color: orangered;
@@ -950,10 +951,10 @@ footer {
 .labels-block {
   display: flex;
   flex-direction: column;
-  row-gap: 15px;
+  row-gap: 4px;
 }
 .labels-block input {
-  padding: 10px 40px;
+  padding: 14px 40px;
   border-radius: 12px;
   outline: none;
   border: none;
@@ -978,7 +979,7 @@ footer {
 .labels-block div {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 3px;
 }
 label {
   font-family: "DM Sans 18pt";
