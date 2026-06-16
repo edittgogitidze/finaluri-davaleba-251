@@ -865,7 +865,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap:100px;
+  column-gap:150px;
 }
 
 .about-row {
