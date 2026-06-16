@@ -432,10 +432,11 @@ h1 {
   padding: 20px 32px;
   border: 1.5px solid #2c2f24;
   border-radius: 118px;
-  transition: 0.5s ease 0.01s;
+  transition: all 0.5s ease 0.01s;
 }
 .healthy-food button:hover {
   background-color: #ad343e;
+transform: translateY(-3px);
 }
 .healthy-food a {
   font-family: "DM Sans 18pt";

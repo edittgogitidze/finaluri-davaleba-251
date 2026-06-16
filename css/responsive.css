@@ -245,7 +245,7 @@
     row-gap: 30px;
   }
   .services h3 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .for-info h5 {
     font-size: 20px;
@@ -254,7 +254,7 @@
     font-size: 12px;
   }
   .about-delivery h3 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .for-flex p {
     font-size: 16px;
@@ -348,7 +348,7 @@
     width: 100%;
     row-gap: 150px;
   }
-  ma
+  
   
   .text-side {
     row-gap: 8px;
@@ -395,8 +395,14 @@
   .about-services {
     width: 96%;
   }
+  .about-delivery h3{
+    font-size:24px;
+  }
   .block-class {
     row-gap: 30px;
+  }
+  .services h3{
+    font-size: 25px;
   }
   .food-pic {
     display: none;
@@ -480,6 +486,10 @@
     font-size: 12px;
     color: black;
   }
+
+   .about-delivery h3{
+    font-size:20px;
+  }
   .about-menu {
     row-gap: 40px;
     padding: 60px 0px 50px 0px;
@@ -533,8 +543,8 @@
     font-size: 14px;
   }
   .services h3 {
-    font-weight: 18px;
-    line-height: 100%;
+    font-size: 18px;
+    line-height: 200%;
   }
   .customers-div h3 {
     font-size: 25px;
