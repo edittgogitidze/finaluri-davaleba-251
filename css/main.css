@@ -424,10 +424,6 @@ h1 {
 .icons img {
   width: 50px;
 }
-html,
-body {
-  overflow-x: hidden;
-}
 .text-area {
   display: -webkit-box;
   display: -ms-flexbox;
