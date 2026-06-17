@@ -133,24 +133,23 @@ header {
   font-size: 35px;
   transition: 0.5s ease 0.2s;
 }
-.burger-bar:hover{
+.burger-bar:hover {
   transform: translateY(-2px);
 }
-.chat-icon{
-
+.chat-icon {
   position: relative;
 }
 
-.message{
+.message {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  font-size:85px;
+  font-size: 85px;
   color: orangered;
-   transition: 0.5s ease 0.2s;
+  transition: 0.5s ease 0.2s;
 }
-.message:hover{
-  transform:  translateY(-5px);
+.message:hover {
+  transform: translateY(-5px);
   color: rgb(18, 112, 112);
 }
 /*პირველი სექცია*/
@@ -452,7 +451,7 @@ h1 {
 }
 .healthy-food button:hover {
   background-color: #ad343e;
-transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 .healthy-food a {
   font-family: "DM Sans 18pt";
@@ -554,10 +553,10 @@ transform: translateY(-3px);
   width: 100%;
   display: block;
   border-radius: 12px;
-   transition: 0.5s ease 0.01s;
+  transition: 0.5s ease 0.01s;
 }
-.picture-block img:hover{
-  transform:  translateY(-5px);
+.picture-block img:hover {
+  transform: translateY(-5px);
 }
 .food-pic {
   display: flex;
@@ -881,7 +880,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap:150px;
+  column-gap: 150px;
 }
 
 .about-row {
@@ -896,7 +895,6 @@ footer {
   row-gap: 35px;
   width: 293px;
 }
-
 
 .footer-logo {
   transition: 0.5s ease 0.01s;
@@ -1015,26 +1013,26 @@ label {
   letter-spacing: 0px;
   color: #fff;
 }
-.menu-for-footer .ul-list{
+.menu-for-footer .ul-list {
   flex-direction: column;
   row-gap: 30px;
 }
-.menu-for-footer a{
-color: #fff;
-font-size: 22px;
+.menu-for-footer a {
+  color: #fff;
+  font-size: 22px;
 }
-.btn-class{
-border: 1px solid rgb(172, 36, 36);
-outline: none;
-background-color:#d6c2c2;
-border-radius: 12px;
-padding: 10px 20px;
-display: inline-block;
-width: 50%;
-transition: all 0.5s ease 0.01s;
+.btn-class {
+  border: 1px solid rgb(172, 36, 36);
+  outline: none;
+  background-color: #d6c2c2;
+  border-radius: 12px;
+  padding: 10px 20px;
+  display: inline-block;
+  width: 50%;
+  transition: all 0.5s ease 0.01s;
 }
-.btn-class:hover{
- background-color: #ad343e;
- color: #fff;
- transform: translateY(-3px);
+.btn-class:hover {
+  background-color: #ad343e;
+  color: #fff;
+  transform: translateY(-3px);
 }
