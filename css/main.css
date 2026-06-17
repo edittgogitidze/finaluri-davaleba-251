@@ -426,7 +426,7 @@ h1 {
 }
 html,
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .text-area {
   display: -webkit-box;
