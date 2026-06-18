@@ -5,10 +5,9 @@
 * Browsers: last 4 version
 */
 
-
 body {
   background-color: #e0e2dc;
- 
+  overflow-x: hidden;
 }
 /*ჰედერის ნაწილი*/
 header {
